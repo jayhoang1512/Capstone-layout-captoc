@@ -23,3 +23,7 @@
   --bg-lightgrey: #f8f9fa;
   --layer: rgba(29, 42, 55, 0.7);
 }
+
+:root {
+  --animate-delay: 1s;
+}

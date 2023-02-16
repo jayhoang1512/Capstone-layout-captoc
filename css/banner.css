@@ -8,6 +8,39 @@
     z-index: -1;
 }
 
-#banner {
+.img__item {
     position: relative;
+}
+
+.img__content {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.img__content h1 {
+    font-size: 55px;
+}
+
+.img__content p {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 600px;
+    color: #fff;
+    letter-spacing: 0.010em;
+    opacity: .9;
+}
+
+.img__content button {
+    padding: 15px 50px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    border-radius: var(--border-radius);
+
+    color: #fff;
+    background-color: #00a63f;
+    border-color: #00a63f;
 }

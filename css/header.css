@@ -31,7 +31,7 @@ header {
 
 .container i {
   color: var(--primary-color);
-  margin-right: 5px;
+  /* margin-right: 5px; */
   vertical-align: bottom;
   font-size: 30px;
 }
@@ -47,11 +47,50 @@ header {
   text-transform: none;
   display: block;
   font-size: 14px;
-  padding-left: 46px;
+  padding-left: 54px;
   font-weight: 600;
 }
 
 h1 {
   font-size: 32px;
   font-weight: 700;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: transparent;
+  /* padding: 90px 10px; */
+  /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s;
+  /* Adds a transition effect when the padding is decreased */
+  position: fixed;
+  /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0;
+  /* At the top */
+  z-index: 99;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 100px;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
