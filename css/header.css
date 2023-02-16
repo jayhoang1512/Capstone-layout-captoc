@@ -1,3 +1,57 @@
 header {
-  background-color: green;
+  height: 100px;
+  border-bottom: 1px solid rgba(231, 231, 231, 0.18);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.menu ul li {
+  list-style: none;
+  transition: all 0.5s ease;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  cursor: pointer !important;
+  color: #fff;
+
+}
+
+.container i {
+  color: var(--primary-color);
+  margin-right: 5px;
+  vertical-align: bottom;
+  font-size: 30px;
+}
+
+.corp__left {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.corp__left p {
+  text-transform: none;
+  display: block;
+  font-size: 14px;
+  padding-left: 46px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
 }
