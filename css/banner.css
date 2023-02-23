@@ -1,5 +1,5 @@
 .overlay {
-    background: var(--layer);
+    background: var(--layer) !important;
     position: absolute;
     left: 0;
     top: 0;
@@ -38,9 +38,9 @@
     font-size: 16px;
     line-height: 18px;
     font-weight: 600;
-    border-radius: var(--border-radius);
-
+    border-radius: 8px;
+    border: 1px solid transparent;
     color: #fff;
-    background-color: #00a63f;
-    border-color: #00a63f;
+    background-color: var(--green);
+    border-color: var(--green);
 }

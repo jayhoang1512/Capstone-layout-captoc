@@ -5,13 +5,13 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 3;
 }
 
 .menu ul li {
   list-style: none;
   transition: all 0.5s ease;
-  padding: 14px;
+  padding: 15px;
   font-size: 15px;
   font-weight: 700;
   opacity: 0.8;
@@ -26,12 +26,45 @@ header {
   text-decoration: none;
   cursor: pointer !important;
   color: #fff;
+}
 
+.menu:hover ul li a {
+  background-color: transparent !important;
+}
+
+.dropdown-item {
+  color: black !important;
+}
+
+.dropdown a {
+  z-index: 9999;
+}
+
+.menu .navbar__contact {
+  padding-left: 5px;
+}
+
+#navbar a.active {
+  color: var(--green) !important;
+  background-color: transparent !important;
+}
+
+/* .menu .dropdown:active {
+  background-color: transparent;
+  border-color: transparent;
+} */
+
+.btn-secondary {
+  padding: 0;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  transition: all 0.5s;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .container i {
-  color: var(--primary-color);
-  /* margin-right: 5px; */
+  color: var(--green);
   vertical-align: bottom;
   font-size: 30px;
 }
@@ -59,15 +92,10 @@ h1 {
 #navbar {
   overflow: hidden;
   background-color: transparent;
-  /* padding: 90px 10px; */
-  /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s;
-  /* Adds a transition effect when the padding is decreased */
   position: fixed;
-  /* Sticky/fixed navbar */
   width: 100%;
   top: 0;
-  /* At the top */
   z-index: 99;
 }
 
