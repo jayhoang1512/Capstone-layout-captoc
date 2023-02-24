@@ -1,0 +1,73 @@
+#maps {
+    background-color: var(--navi);
+    height: 400px;
+    color: white;
+    font-weight: 500;
+}
+
+#maps .layout {
+    height: 350px;
+    border-bottom: 1px solid rgba(134, 134, 134, 0.604);
+}
+
+#maps .container {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#maps .container h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#maps .container p {
+    color: rgba(209, 209, 209, 0.773);
+    font-weight: 400;
+}
+
+.email .input {
+    color: #999;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(255, 255, 255, 0.15);
+    padding: 0 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 1px solid #888b8d5c;
+    display: flex;
+    align-items: center;
+}
+
+#maps .email {
+    margin-left: 60px;
+    margin-top: 25px;
+    position: relative;
+    display: flex;
+    max-width: 550px;
+    justify-content: center;
+}
+
+#maps .email input[type="email"] {
+    padding: 14px 20px;
+    font-size: 16px;
+    line-height: 28px;
+    border: 1px solid #eee;
+    outline: none;
+    width: 100%;
+    background: var(--white);
+    border-radius: 0;
+    color: #999;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.15);
+    border-left: none;
+}
+
+#maps .email button.btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00a63f;
+    border-color: #00a63f;
+}

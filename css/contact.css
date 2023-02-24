@@ -1,0 +1,45 @@
+#contact {
+    height: 350px;
+    background-color: var(--navi);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #999;
+}
+
+#contact .info p {
+    color: #999;
+}
+
+#contact .share a {
+    font-size: 17px !important;
+    margin-right: 15px;
+    float: left;
+    color: #999;
+    margin-left: 10px;
+}
+
+#contact .share a:hover {
+    color: var(--white);
+    transition: 0.3s;
+    opacity: 1;
+}
+
+#contact .row {
+    text-align: left;
+}
+
+#contact .contact__title h1 {
+    color: var(--white);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#contact .info a {
+    color: #999;
+}
+
+#contact .info a:hover {
+    text-decoration: none;
+    color: var(--white);
+    transition: all 0.5s;
+}
