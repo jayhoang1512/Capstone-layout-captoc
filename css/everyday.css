@@ -1,0 +1,57 @@
+#everyday {
+    background-color: var(--bg-grey);
+    padding-top: 90px;
+    padding-bottom: 25px;
+}
+
+#everyday .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* background-color: var(--white); */
+    padding: 10px;
+    grid-gap: 25px;
+}
+
+#everyday .grid-item {
+    background-color: var(--white);
+    font-size: 30px;
+    padding: 40px 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    transition: .3s ease;
+}
+
+#everyday .grid-item:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+#everyday .grid-item:hover a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+#everyday .grid-container a {
+    color: var(--light-blue);
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 25px;
+    display: block;
+}
+
+#everyday button {
+    padding: 15px 50px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: var(--green);
+    border-color: var(--green);
+    margin-top: 60px;
+}

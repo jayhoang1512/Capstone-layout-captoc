@@ -1,0 +1,53 @@
+#service {
+    height: 700px;
+    padding-top: 80px;
+}
+
+.container {
+    text-align: center;
+}
+
+#service .container h1 {
+    padding-top: 2px;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--light-blue);
+}
+
+#service .blog a {
+    color: var(--light-blue);
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 35px;
+    background-color: var(--white);
+    transform: translateY(-25px);
+    display: inline-block;
+    border-radius: 8px;
+    transition: all .5s;
+}
+
+#service .blog:hover a {
+    color: var(--green);
+}
+
+.blog__more {
+    font-size: 16px !important;
+}
+
+#service .blog {
+    text-align: center;
+}
+
+#service .col-4 img {
+    width: 100%;
+}
+
+#service .blog p {
+    margin-bottom: 40px;
+    margin-top: -20px;
+    color: var(--grey);
+    font-weight: 380;
+    font-size: 17px;
+}
