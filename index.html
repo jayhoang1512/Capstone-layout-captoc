@@ -36,6 +36,7 @@
     />
 
     <!-- custom css -->
+    <link rel="stylesheet" href="./css/button.css" />
     <link rel="stylesheet" href="./css/theme.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/maps.css" />
@@ -50,7 +51,7 @@
     <link rel="stylesheet" href="./css/aboutus.css" />
     <link rel="stylesheet" href="./css/index.css" />
   </head>
-  <body>
+  <body id="myBody">
     <!--  Start header-->
     <header id="navbar">
       <div class="container d-flex justify-content-around">
@@ -92,6 +93,12 @@
               <li class="navbar__contact"><a href="">contact</a></li>
             </ul>
           </div>
+        </div>
+        <div class="navbar switch__light">
+          <button class="btn" id="switchButton" title="Click to switch theme">
+            <i class="far fa-moon"></i>
+            <i class="far fa-sun"></i>
+          </button>
         </div>
       </div>
     </header>
@@ -696,6 +703,7 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="./js/switch.js"></script>
     <script src="./js/happy.js"></script>
     <script src="./js/index.js"></script>
   </body>

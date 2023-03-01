@@ -1,0 +1,116 @@
+/* Light theme */
+#myBody {
+    background-color: white;
+}
+
+#switchButton {
+    background-color: white;
+}
+
+#switchButton .fa-sun {
+    display: none;
+}
+
+#switchButton .fa-moon {
+    display: block;
+}
+
+/* Dark Theme*/
+#myBody.dark {
+    background-color: #000000;
+}
+
+.dark #aboutus {
+    background-color: #151421;
+}
+
+.dark #aboutus h1 {
+    color: white;
+}
+
+.dark #aboutus p {
+    color: white;
+}
+
+.dark #everyday {
+    background-color: black;
+}
+
+.dark #everyday h1 {
+    color: white;
+}
+
+.dark #everyday .grid-item a {
+    color: white;
+    transition: all 0.5s;
+}
+
+.dark #everyday .grid-item {
+    background-color: #151421;
+}
+
+.dark #service {
+    background-color: #151421;
+}
+
+.dark #service .container h1 {
+    color: white;
+}
+
+.dark #service .blog a {
+    color: white;
+}
+
+.dark #service .blog a {
+    background-color: black;
+}
+
+
+.dark #gallery {
+    background-color: black;
+}
+
+.dark #gallery h1 {
+    color: white;
+}
+
+.dark #success {
+    background-color: #151421;
+}
+
+.dark #success .content__success h1 {
+    color: white;
+}
+
+.dark #latest {
+    background-color: black;
+}
+
+.dark #latest .container h1 {
+    color: white;
+}
+
+.dark #latest .content {
+    background-color: #151421;
+}
+
+.dark #latest .footer {
+    background-color: #151421;
+}
+
+.dark #latest .footer a {
+    color: white;
+}
+
+.dark #switchButton {
+    background-color: black;
+}
+
+.dark #switchButton .fa-sun {
+    display: block;
+    color: white;
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
+}
