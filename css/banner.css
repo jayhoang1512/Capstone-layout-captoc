@@ -12,6 +12,10 @@
     position: relative;
 }
 
+.img__item img {
+    width: 100%;
+}
+
 .img__content {
     position: absolute;
     top: 30%;
