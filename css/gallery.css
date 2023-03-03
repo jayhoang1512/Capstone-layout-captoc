@@ -1,16 +1,16 @@
-.gallery {
+#gallery {
     background-color: var(--bg-grey);
-    height: 1070px !important;
 }
 
-.gallery h3 {
+#gallery h3 {
     font-size: 15px;
     font-weight: 700;
     color: var(--grey);
 }
 
-.gallery__container {
-    text-align: center;
+#gallery .row__img {
+    display: flex;
+
 }
 
 .gallery__text h2 {
@@ -23,14 +23,16 @@
     font-weight: 520;
 }
 
-#service .col-4 {
+#gallery .col-lg-4 {
     position: relative;
+    padding: 0px;
 }
 
 .gallery__img {
     display: block;
     width: 100%;
     height: auto;
+
 }
 
 .overlay {
@@ -47,7 +49,7 @@
 
 }
 
-.col-4:hover .overlay {
+.col-lg-4:hover .overlay {
     opacity: 1;
     z-index: 5;
 
