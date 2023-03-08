@@ -1,5 +1,4 @@
-$(".happy__slider").slick({
-  dots: true,
+$(".testimonial-width").slick({
   infinite: true,
   speed: 500,
   fade: true,
